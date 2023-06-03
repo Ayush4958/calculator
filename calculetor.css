@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: rgb(28, 51, 67);
+  margin: auto;
+}
+h1{
+  margin: 10px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+form{
+  text-align: center;
+  margin: 25px 190px;
+  border: solid 8px black;
+  padding: 15px 25px;
+  box-shadow: 9px 9px 8px #12bcd9;
+}
+input[name=input]{
+  margin: 15px;
+  width: 250px;
+  height: 25px;
+}
+.row{
+  text-align: center;
+}
+input[name=button]{
+  height: 35px;
+  width: 35px;
+  margin: 10px;
+  font-size: 1rem;
+  background-color: black;
+  border-radius: 19px;
+  border: solid 3px black;
+  color: aliceblue;
+  cursor: pointer;
+}
+input[name=button]:hover{
+  background-color: rgb(192, 192, 192);
+  color: black;
+  cursor: pointer;
+} 
